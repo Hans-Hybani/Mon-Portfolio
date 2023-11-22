@@ -1,22 +1,4 @@
 <template>
-    <header id="menu">
-                <nav>
-                      <div class="logo">
-                            <a href="#menu"><img src="../../public/Média/hans.png" alt=""></a>
-                      </div>
-                      <div class="nav_link">
-                            <ul>
-                              <li><a href="#Me" id="moi__link" @click="linkEvent1()">Moi</a></li>
-                              <li><a href="#Portfolio" id="portfolio__link" @click="linkEvent2()">Portfolio</a></li>
-                              <li><a href="#Contact" id="contact__link" @click="linkEvent3()">Contact</a></li>  
-                            </ul>
-                      </div>
-                      <div class="titre_page">
-                            <h1>MyFolio</h1>
-                      </div>
-                </nav>
-        </header>
-        
         <main>
                 <section id="Me">
                       <h2 class="Me_titre">HYBANI PRINCIA Hans</h2>
@@ -57,7 +39,12 @@
                                   </div>
                               </div>
                       </section>
+                      <!-- cette div ayant l'id orverlay, sera celle qui prendra toute la largeur de notre ecran et se mettra 
+                        en noir avec une légère opacité, au click d'une de trois réalisation dans la section portfolio, afin de mettre en evidence
+                      la modale  -->
                       <div id="overlay" @click="exitModaleOverlay()"></div>
+                      <!-- il y'a trois réalisation, j'ai donc fait trois modale car je rencontrais des problèmes lorsque je chargeais les informations 
+                      dans la modale -->
                       <div id="modale__commentaire">
                             <div id="modale__header__commentaire">
                                   <h2 id="modale__header__titre"></h2>
@@ -142,6 +129,7 @@
                                   </div>
                             </div>
                       </div>
+                      <!-- Et cette quatrieme modale ne s'affiche que si vous avez correctement rempli le formulaire, afin de l'envoyer -->
                       <div id="modale__mail__confirmation">
                             <div class="modale__mail__confirmation__titre">
                                   <h2>Votre Message a été envoyer</h2>
@@ -270,9 +258,9 @@ NumSyntaxeObjet: null,
 NumSyntaxeMessage: null, 
 
 // ****** style lorsqu'on clique sur un lien du menu
-moiLink: null,
-portfolioLink: null, 
-contactLink: null
+// moiLink: null,
+// portfolioLink: null, 
+// contactLink: null
 };
 },
 methods: {
@@ -414,23 +402,7 @@ DeleteForm() {
 // Il est placé dans le bouton du fomulaire
 Run() {
   this.Erreur()
-},
-// le lien actif soit souligné au clique
-linkEvent1(){
-  this.moiLink.style.textDecoration ='underline'
-  this.portfolioLink.style.textDecoration ='none'
-  this.contactLink.style.textDecoration ='none'
-},
-linkEvent2(){
-  this.moiLink.style.textDecoration ='none'
-  this.portfolioLink.style.textDecoration ='underline'
-  this.contactLink.style.textDecoration ='none'
-},
-linkEvent3(){
-  this.moiLink.style.textDecoration ='none'
-  this.portfolioLink.style.textDecoration ='none'
-  this.contactLink.style.textDecoration ='underline'
-},
+}
 },
 mounted() {
 //Fond noir au clique d'une carte du porfolio 
@@ -490,9 +462,9 @@ this.NumSyntaxeObjet = document.getElementById('Numsyntaxe__objet')
 this.NumSyntaxeMessage = document.getElementById('Numsyntaxe__message')
 
 // Lien de navigation
-this.moiLink =  document.getElementById('moi__link')
-this.portfolioLink = document.getElementById('portfolio__link')
-this.contactLink = document.getElementById('contact__link')
+// this.moiLink =  document.getElementById('moi__link')
+// this.portfolioLink = document.getElementById('portfolio__link')
+// this.contactLink = document.getElementById('contact__link')
 },
 };
 </script>
@@ -509,39 +481,7 @@ body{
   padding: 0;
   margin: 0;
 }
-nav{
-  background-color:#34353A;
-  display: flex;
-  justify-content: space-around;
-  height: 120px;
-  align-items: center;
-  position: fixed;
-  width: 100%;
-  box-shadow: 1px 1px 9px 2px black;
-  z-index: auto;
-}
-.logo img{
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-}
-.nav_link ul{
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-.nav_link a{
-  text-decoration: none;
-  color: #FFF;
-  font-size: 1.4em;
-  font-weight: 400;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.titre_page{
-  color: #FFBD59;
-  font-size: 1.8em;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
 /* Debut du Main */
 /* Section Me */
 #Me{
@@ -792,7 +732,7 @@ nav{
   font-size: 1.2em;
   border-radius: 5px;
   box-shadow: 1px 1px 8px 1px black;
-  margin-bottom: Rpx;
+  margin-bottom: 5px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #modale__header__cahier h2{
@@ -802,7 +742,7 @@ nav{
   font-size: 1.2em;
   border-radius: 5px;
   box-shadow: 1px 1px 8px 1px black;
-  margin-bottom: Rpx;
+  margin-bottom: 5px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #modale__header__cv h2{
@@ -812,7 +752,7 @@ nav{
   font-size: 1.2em;
   border-radius: 5px;
   box-shadow: 1px 1px 8px 1px black;
-  margin-bottom: Rpx;
+  margin-bottom: 5px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .modale__header__button button{
@@ -997,6 +937,7 @@ textarea{
   padding:10px;
   font-size:1.4em;
   margin-top: 10px;
+  resize: none;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .formulair_commentaire_button{
