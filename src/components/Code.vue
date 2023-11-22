@@ -1,203 +1,203 @@
 <template>
     <header id="menu">
-          <nav>
-                <div class="logo">
-                      <a href="#menu"><img src="../../public/Média/hans.png" alt=""></a>
-                </div>
-                <div class="nav_link">
-                      <ul>
-                        <li><a href="#Me" id="moi__link" @click="linkEvent1()">Moi</a></li>
-                        <li><a href="#Portfolio" id="portfolio__link" @click="linkEvent2()">Portfolio</a></li>
-                        <li><a href="#Contact" id="contact__link" @click="linkEvent3()">Contact</a></li>  
-                      </ul>
-                </div>
-                <div class="titre_page">
-                      <h1>MyFolio</h1>
-                </div>
-          </nav>
-    </header>
-
-    <main>
-          <section id="Me">
-                <h2 class="Me_titre">HYBANI PRINCIA Hans</h2>
-                <div class="Me_monProfil">
-                      <p>Developpeur Web et mobile <br>
-                      & <span>Web designer junior</span></p>
-                      <article class="Me_monProfil presentation">Jeune développeur web et mobile je suis particulièrement passionné par le web design. J'exprime ma créativité avec Adobe XD. En dehors du code, j'explore l'astronomie ainsi que divers thème culturelle. Mon scientifique préféré est Stephen Hawking, il m'inspire à surmonter les obstacles. Je crois que, malgré les handicaps, on peut accomplir de grandes choses. Mon parcours est une aventure continue d'apprentissage et de croissance dans le monde du développement. Ce portfolio en est une prémisse</article>
-                </div>
-                <div class="Me_photoDeProfil">
-                      <img src="../../public/Média/photo1.png" alt="">
-                </div>
-          </section>
-
-          <section id="aboutMyskills">
-                <h2 class="aboutMyskills_titre">A propos</h2>
-                <div class="aboutMyskills_description">
-                      <p>Mes premiers pas dans le développement ont débuté avec HTML et CSS, que j'ai rapidement maîtrisés. En quête d'interactivité, j'ai plongé dans JavaScript, marquant mon entrée dans le monde complexe du développement. Vue.js a ensuite été un défi, devenant mes "hard skills". En parallèle, je me suis initié au design web avec Adobe XD, fusionnant ainsi le code et le design.Ma liste de compétences ne cesse de s'élargir. Actuellement à l'aise avec HTML, CSS, JavaScript, je suis sur le point d'intégrer Python et Figma à mes compétences. De plus, l'apprentissage du framework React est également prévu dans mon parcours.</p>
-                </div>
-                <section class="aboutMyskills_skills">
-                      <h3>Hard & Soft skills</h3>
-                      <div class="aboutMyskills_outils card">
-                            <div class="htmlCss card">
-                                  <img src="../../public/Média/html-5 (1).png" alt="">
-                                  <img src="../../public/Média/css-3 (1).png" alt="">
-                                  <p>HTML & CSS</p>
-                            </div>
-                            <div class="javaScript card">
-                                  <img src="../../public/Média/js.png" alt="">
-                                  <p>JAVASCRIPT</p>
-                            </div>
-                            <div class="vueJs card">
-                                  <img src="../../public/Média/vue.png" alt="">
-                                  <p>VueJS</p>
-                            </div>
-                            <div class="adobeXD card">
-                                  <img src="../../public/Média/xd.png" alt="">
-                                  <p>Adobe XD</p>
-                            </div>
-                        </div>
+                <nav>
+                      <div class="logo">
+                            <a href="#menu"><img src="../../public/Média/hans.png" alt=""></a>
+                      </div>
+                      <div class="nav_link">
+                            <ul>
+                              <li><a href="#Me" id="moi__link" @click="linkEvent1()">Moi</a></li>
+                              <li><a href="#Portfolio" id="portfolio__link" @click="linkEvent2()">Portfolio</a></li>
+                              <li><a href="#Contact" id="contact__link" @click="linkEvent3()">Contact</a></li>  
+                            </ul>
+                      </div>
+                      <div class="titre_page">
+                            <h1>MyFolio</h1>
+                      </div>
+                </nav>
+        </header>
+        
+        <main>
+                <section id="Me">
+                      <h2 class="Me_titre">HYBANI PRINCIA Hans</h2>
+                      <div class="Me_monProfil">
+                            <p class="Me_monProfil__titre">Développeur Web et Mobile<br>
+                            & <span> & Web Designer Junior</span></p>
+                            <p class="Me_monProfil__presentation">Jeune développeur web et mobile je suis particulièrement passionné par le web design. J'exprime ma créativité avec Adobe XD. En dehors du code, j'explore l'astronomie ainsi que divers thème culturelle. Mon scientifique préféré est Stephen Hawking, il m'inspire à surmonter les obstacles. Je crois que, malgré les handicaps, on peut accomplir de grandes choses. Mon parcours est une aventure continue d'apprentissage et de croissance dans le monde du développement. Ce portfolio en est une prémisse</p>
+                      </div>
+                      <div class="Me_photoDeProfil">
+                            <img src="../../public/Média/photo1.png" alt="photo de profil de Hans Hybani">
+                      </div>
                 </section>
-                <div id="overlay" @click="exitModaleOverlay()"></div>
-                <div id="modale__commentaire">
-                      <div id="modale__header">
-                            <h2 id="modale__header__titre"></h2>
-                            <div class="modale__header__button">
-                                  <button type="button" @click="modaleRealisation1()">Aller Vers la réalisation</button>
+        
+                <section id="aboutMyskills">
+                      <h2 class="aboutMyskills_titre">A propos</h2>
+                      <div class="aboutMyskills_description">
+                            <p>Mes premiers pas dans le développement ont débuté avec HTML et CSS, que j'ai rapidement maîtrisés. En quête d'interactivité, j'ai plongé dans JavaScript, marquant mon entrée dans le monde complexe du développement. Vue.js a ensuite été un défi, devenant mes "hard skills". En parallèle, je me suis initié au design web avec Adobe XD, fusionnant ainsi le code et le design.Ma liste de compétences ne cesse de s'élargir. Actuellement à l'aise avec HTML, CSS, JavaScript, je suis sur le point d'intégrer Python et Figma à mes compétences. De plus, l'apprentissage du framework React est également prévu dans mon parcours.</p>
+                      </div>
+                      <section class="aboutMyskills_skills">
+                            <h3>Hard & Soft skills</h3>
+                            <div class="aboutMyskills_outils card">
+                                  <div class="htmlCss card">
+                                        <img src="../../public/Média/html-5.png" alt="image de html 5">
+                                        <img src="../../public/Média/css-3.png" alt="image de css 3">
+                                        <p>HTML & CSS</p>
+                                  </div>
+                                  <div class="javaScript card">
+                                        <img src="../../public/Média/js.png" alt="image de javascript">
+                                        <p>JAVASCRIPT</p>
+                                  </div>
+                                  <div class="vueJs card">
+                                        <img src="../../public/Média/vue.png" alt="image de vue js">
+                                        <p>VueJS</p>
+                                  </div>
+                                  <div class="adobeXD card">
+                                        <img src="../../public/Média/xd.png" alt="image d'adobe XD">
+                                        <p>Adobe XD</p>
+                                  </div>
+                              </div>
+                      </section>
+                      <div id="overlay" @click="exitModaleOverlay()"></div>
+                      <div id="modale__commentaire">
+                            <div id="modale__header__commentaire">
+                                  <h2 id="modale__header__titre"></h2>
+                                  <div class="modale__header__button">
+                                        <button type="button" @click="modaleRealisation1()">Aller Vers la réalisation</button>
+                                        <button type="button" @click="closeModale()">Fermer</button>
+                                  </div>
+                                  <div class="modale__header__information">
+                                        <p id="modale__header__date1"><time datetime="2023-11-07">Date de création : 07 Novembre 2023</time></p>
+                                        <p id="modale__header__technologie1">Technologie : HTML & CSS, JavaScript</p>
+                                        <p>GitHub :<a href="https://github.com/Hans-Hybani/EspaceCommentaireCEF" target="_blank">Ici</a></p>
+                                  </div>
+                            </div>
+                            <div class="modale__body">
+                                  <div class="modale__body">
+                                        <div class="modale__body__image">
+                                              <img id="modale__body__image1__commentaire" src="" alt="">
+                                              <p id="modale__body__text1__commentaire"></p>
+                                        </div>
+                                        <div class="modale__body__image">
+                                              <img id="modale__body__image2__commentaire" src="" alt="">
+                                              <p id="modale__body__text2__commentaire"></p>
+                                        </div>
+                                        <div class="modale__body__image">
+                                              <img id="modale__body__image3__commentaire" src="" alt="">
+                                              <p id="modale__body__text3__commentaire"></p>
+                                        </div>
+                                  </div>
+                            </div>
+                      </div>
+                      <div id="modale__cahier">
+                            <div id="modale__header__cahier">
+                                  <h2 id="modale__header__titre2"></h2>
+                                  <div class="modale__header__button">
+                                        <button type="button" @click="modaleRealisation2()">Aller Vers la réalisation</button>
+                                        <button type="button" @click="closeModale()">Fermer</button>
+                                  </div>
+                                  <div class="modale__header__information">
+                                        <p id="modale__header__date2"><time datetime="2023-10-18">Date de création : 18 Octobre 2023</time></p>
+                                  </div>
+                            </div>
+                            <div class="modale__body">
+                                  <div class="modale__body">
+                                        <div class="modale__body__image">
+                                              <img id="modale__body__image1__cahier" src="" alt="">
+                                        </div>
+                                        <div class="modale__body__image">
+                                              <img id="modale__body__image2__cahier" src="" alt="">
+                                        </div>
+                                        <div class="modale__body__image">
+                                              <img id="modale__body__image3__cahier" src="" alt="">
+                                              <p id="modale__body__text3__cahier"></p>
+                                        </div>
+                                  </div>
+                            </div>
+                      </div>
+                      <div id="modale__cv">
+                            <div id="modale__header__cv">
+                                  <h2 id="modale__header__titre3"></h2>
+                                  <div class="modale__header__button">
+                                        <button type="button" @click="modaleRealisation3()">Aller Vers la réalisation</button>
+                                        <button type="button" @click="closeModale()">Fermer</button>
+                                  </div>
+                                  <div class="modale__header__information">
+                                        <p id="modale__header__date3"><time datetime="2023-10-08">Date de création : 08 Octobre 2023.</time></p>
+                                        <p id="modale__header__technologie3">Technologie : HTML & CSS</p>
+                                        <p>GitHub :<a href="https://github.com/Hans-Hybani/My-CV" target="_blank">Ici</a></p>
+                                  </div>
+                            </div>
+                            <div class="modale__body">
+                                  <div class="modale__body">
+                                        <div class="modale__body__image">
+                                              <img id="modale__body__image1__cv" src="" alt="">
+                                        </div>
+                                        <div class="modale__body__image">
+                                              <img id="modale__body__image2__cv" src="" alt="">
+                                        </div>
+                                        <div class="modale__body__image">
+                                              <img id="modale__body__image3__cv" src="" alt="">
+                                              <p id="modale__body__text3__cv"></p>
+                                        </div>
+                                  </div>
+                            </div>
+                      </div>
+                      <div id="modale__mail__confirmation">
+                            <div class="modale__mail__confirmation__titre">
+                                  <h2>Votre Message a été envoyer</h2>
+                            </div>
+                            <div class="modale__mail__confirmation__button">
                                   <button type="button" @click="closeModale()">Fermer</button>
                             </div>
-                            <div class="modale__header__information">
-                                  <p id="modale__header__date1"><time datetime="2023-11-07">Date de création : 07 Novembre 2023</time></p>
-                                  <p id="modale__header__technologie1">Technologie : HTML & CSS, JavaScript</p>
-                                  <p>GitHub :<a href="https://github.com/Hans-Hybani/EspaceCommentaireCEF" target="_blank">Ici</a></p>
-                            </div>
                       </div>
-                      <div class="modale__body">
-                            <div class="modale__body">
-                                  <div class="modale__body__image">
-                                        <img id="modale__body__image1__commentaire" src="" alt="">
-                                        <p id="modale__body__text1__commentaire"></p>
+                      <section id="Portfolio">
+                            <h2 class="Portfolio_titre">Portfolio</h2>
+                                  <div class="Portfolio_realisation all card main">
+                                        <div @click="modaleCard1()" class="Portfolio_realisation all card espaceCommentaire">
+                                              <img src="../../public/Média/commentaire.PNG" alt="Une image qui envoie vers le lien du site dynamiser une espace commentaire">
+                                              <p>Espace Commentaire Dynamique</p>
+                                        </div>
+                                        <div @click="modaleCard2()" class="Portfolio_realisation all card cahierDeCharge">
+                                              <img src="../../public/Média/cahier.PNG" alt="Une image qui envoie vers un fichier pdf du cahier de charge la socketterie">
+                                              <p>Cahier des charges</p>
+                                        </div>
+                                        <div @click="modaleCard3()" class="Portfolio_realisation all card">
+                                              <img src="../../public/Média/cv.PNG" alt="Une image qui envoie vers le site de mon CV">
+                                              <p>Mon CV</p>
+                                        </div>
                                   </div>
-                                  <div class="modale__body__image">
-                                        <img id="modale__body__image2__commentaire" src="" alt="">
-                                        <p id="modale__body__text2__commentaire"></p>
-                                  </div>
-                                  <div class="modale__body__image">
-                                        <img id="modale__body__image3__commentaire" src="" alt="">
-                                        <p id="modale__body__text3__commentaire"></p>
-                                  </div>
-                            </div>
-                      </div>
-                </div>
-                <div id="modale__cahier">
-                      <div id="modale__header">
-                            <h2 id="modale__header__titre2"></h2>
-                            <div class="modale__header__button">
-                                  <button type="button" @click="modaleRealisation2()">Aller Vers la réalisation</button>
-                                  <button type="button" @click="closeModale()">Fermer</button>
-                            </div>
-                            <div class="modale__header__information">
-                                  <p id="modale__header__date2"><time datetime="2023-10-18">Date de création : 18 Octobre 2023</time></p>
-                            </div>
-                      </div>
-                      <div class="modale__body">
-                            <div class="modale__body">
-                                  <div class="modale__body__image">
-                                        <img id="modale__body__image1__cahier" src="" alt="">
-                                  </div>
-                                  <div class="modale__body__image">
-                                        <img id="modale__body__image2__cahier" src="" alt="">
-                                  </div>
-                                  <div class="modale__body__image">
-                                        <img id="modale__body__image3__cahier" src="" alt="">
-                                        <p id="modale__body__text3__cahier"></p>
-                                  </div>
-                            </div>
-                      </div>
-                </div>
-                <div id="modale__cv">
-                      <div id="modale__header">
-                            <h2 id="modale__header__titre3"></h2>
-                            <div class="modale__header__button">
-                                  <button type="button" @click="modaleRealisation3()">Aller Vers la réalisation</button>
-                                  <button type="button" @click="closeModale()">Fermer</button>
-                            </div>
-                            <div class="modale__header__information">
-                                  <p id="modale__header__date3"><time datetime="2023-10-08">Date de création : 08 Octobre 2023.</time></p>
-                                  <p id="modale__header__technologie3">Technologie : HTML & CSS</p>
-                                  <p>GitHub :<a href="https://github.com/Hans-Hybani/My-CV" target="_blank">Ici</a></p>
-                            </div>
-                      </div>
-                      <div class="modale__body">
-                            <div class="modale__body">
-                                  <div class="modale__body__image">
-                                        <img id="modale__body__image1__cv" src="" alt="">
-                                  </div>
-                                  <div class="modale__body__image">
-                                        <img id="modale__body__image2__cv" src="" alt="">
-                                  </div>
-                                  <div class="modale__body__image">
-                                        <img id="modale__body__image3__cv" src="" alt="">
-                                        <p id="modale__body__text3__cv"></p>
-                                  </div>
-                            </div>
-                      </div>
-                </div>
-                <div id="modale__mail__confirmation">
-                      <div class="modale__mail__confirmation__titre">
-                            <h2>Votre Message a été envoyer</h2>
-                      </div>
-                      <div class="modale__mail__confirmation__button">
-                            <button type="button" @click="closeModale()">Fermer</button>
-                      </div>
-                </div>
-                <section id="Portfolio">
-                      <h2 class="Portfolio_titre">Portfolio</h2>
-                            <div class="Portfolio_realisation all card main">
-                                  <div v-on:click="modaleCard1()" class="Portfolio_realisation all card espaceCommentaire">
-                                        <img src="../../public/Média/commentaire.PNG" alt="Une image qui envoie vers le lien du site dynamiser une espace commentaire">
-                                        <p>Espace Commentaire Dynamique</p>
-                                  </div>
-                                  <div @click="modaleCard2()" class="Portfolio_realisation all card cahierDeCharge">
-                                        <img src="../../public/Média/cahier.PNG" alt="Une image qui envoie vers un fichier pdf du cahier de charge la socketterie">
-                                        <p>Cahier des charges</p>
-                                  </div>
-                                  <div @click="modaleCard3()" class="Portfolio_realisation all card">
-                                        <img src="../../public/Média/cv.PNG" alt="Une image qui envoie vers le site de mon CV">
-                                        <p>Mon CV</p>
-                                  </div>
-                            </div>
+                      </section>
                 </section>
-          </section>
-          <section id="Contact">
-                <h2  class="titreDuFormulaire">Contactez Moi</h2>
-                      <div class="formulaire_Error">
-                              <h3 id="formulair_message_alert">Tous les champs doivent etre remplis</h3>
-                              <h3 id="Numsyntaxe__prenom"></h3>
-                              <h3 id="Numsyntaxe__nom"></h3>
-                              <h3 id="Numsyntaxe__objet"></h3>
-                              <h3 id="Numsyntaxe__message"></h3>
-                      </div>
-                      <form  id="formId" method="POST" name="formulaire_de_commentaire">
-                              <!-- L'ajout des div dans ce formualire est choix personnel afin de m'aider à
-                              mieux manipuler certaine partie lorsque je viendrais à donner du style à mon fichier -->    
-                              <div class="formulair_prenom">
-                                      <input name="prenom" type="text" id="prenom" placeholder="Prenom"><br>
-                              </div>
-                              <div class="formulair_nom">
-                                      <input name="nom" type="text" id="nom" placeholder="Nom"><br>
-                              </div>
-                              <div class="formulair_objet">
-                                      <input name="objet" type="text" id="objet" placeholder="objet"><br>
-                              </div>
-                              <div class="formulair_commentaire">
-                                      <textarea name="commentaire" id="textArea" required placeholder="Message"></textarea><br>
-                                      <div class="formulair_commentaire_button">
-                                              <button id="btt" @click="Run()" type="button">Envoyer</button>
-                                      </div>
-                              </div>
-                      </form>
-          </section>
-    </main>
+                <section id="Contact">
+                      <h2  class="titreDuFormulaire">Contactez Moi</h2>
+                            <div class="formulaire_Error">
+                                    <h3 id="formulair_message_alert">Tous les champs doivent etre remplis</h3>
+                                    <h3 id="Numsyntaxe__prenom"></h3>
+                                    <h3 id="Numsyntaxe__nom"></h3>
+                                    <h3 id="Numsyntaxe__objet"></h3>
+                                    <h3 id="Numsyntaxe__message"></h3>
+                            </div>
+                            <form  id="formId" method="POST" name="formulaire_de_commentaire">
+                                    <!-- L'ajout des div dans ce formualire est choix personnel afin de m'aider à
+                                    mieux manipuler certaine partie lorsque je viendrais à donner du style à mon fichier -->    
+                                    <div class="formulair_prenom">
+                                            <input name="prenom" type="text" id="prenom" placeholder="Prenom"><br>
+                                    </div>
+                                    <div class="formulair_nom">
+                                            <input name="nom" type="text" id="nom" placeholder="Nom"><br>
+                                    </div>
+                                    <div class="formulair_objet">
+                                            <input name="objet" type="text" id="objet" placeholder="objet"><br>
+                                    </div>
+                                    <div class="formulair_commentaire">
+                                            <textarea name="commentaire" id="textArea" required placeholder="Message"></textarea><br>
+                                            <div class="formulair_commentaire_button">
+                                                    <button id="btt" @click="Run()" type="button">Envoyer</button>
+                                            </div>
+                                    </div>
+                            </form>
+                </section>
+        </main>
 </template>
 
 <script>
@@ -564,7 +564,7 @@ nav{
   grid-area: 2 / 1 / 3 / 2;
   margin-top: -30px;
 }
-.presentation{
+.Me_monProfil__presentation{
   margin-top: 30px;
   font-size: 1.3em;
   text-indent: 30px;
@@ -572,7 +572,7 @@ nav{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #FFF;
 }
-.Me_monProfil p{
+.Me_monProfil__titre{
   font-size: 2.0em;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -767,13 +767,45 @@ nav{
   text-decoration: none;
   color: #a94848;
 }
-#modale__header{
+#modale__header__commentaire{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 10px;
 }
-#modale__header h2{
+#modale__header__cahier{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+#modale__header__cv{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+#modale__header__commentaire h2{
+  padding: 10px;
+  background-color: #a94848;
+  color: #FFF;
+  font-size: 1.2em;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px 1px black;
+  margin-bottom: Rpx;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#modale__header__cahier h2{
+  padding: 10px;
+  background-color: #a94848;
+  color: #FFF;
+  font-size: 1.2em;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px 1px black;
+  margin-bottom: Rpx;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#modale__header__cv h2{
   padding: 10px;
   background-color: #a94848;
   color: #FFF;
