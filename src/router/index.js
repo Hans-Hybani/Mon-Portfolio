@@ -11,24 +11,6 @@ const router = createRouter({
       component: Acceuil
     },
     {
-      path:'/Me',
-      name: 'Moi',
-      component: Acceuil.Me
-
-    },
-    {
-      path:'/Portfolio',
-      name: 'Portfolio',
-      component: Acceuil.Portfolio
-
-    },
-    {
-      path:'/Contact',
-      name: 'Contact',
-      component: Acceuil.Contact
-
-    },
-    {
       path:'/:pathMatch(.*)*',
       name:'NotFound',
       component:NotFound,
