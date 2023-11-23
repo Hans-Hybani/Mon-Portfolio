@@ -22,6 +22,7 @@
 export default{
         data(){
                 return{
+                        // ****** style lorsqu'on clique sur un lien du menu
                         moiLink: null,
                         portfolioLink: null, 
                         contactLink: null

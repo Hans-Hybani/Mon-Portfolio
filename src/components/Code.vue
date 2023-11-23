@@ -47,7 +47,7 @@
                       dans la modale -->
                       <div id="modale__commentaire">
                             <div id="modale__header__commentaire">
-                                  <h2 id="modale__header__titre"></h2>
+                                  <h2 id="modale__header__titre">Dynamiser un Espace Commentaire</h2>
                                   <div class="modale__header__button">
                                         <button type="button" @click="modaleRealisation1()">Aller Vers la réalisation</button>
                                         <button type="button" @click="closeModale()">Fermer</button>
@@ -61,23 +61,23 @@
                             <div class="modale__body">
                                   <div class="modale__body">
                                         <div class="modale__body__image">
-                                              <img id="modale__body__image1__commentaire" src="" alt="">
-                                              <p id="modale__body__text1__commentaire"></p>
+                                              <img id="modale__body__image1__commentaire" src="../../public/Média/commentaire1.PNG" alt="Première capture du site communautaire">
+                                              <p id="modale__body__text1__commentaire">Ce projet est le premier que j aie fait en javascript, Comme nous pouvons le voir dans ce projet nous disposons de champ que nous devons remplire afin que nous puissions ajouter nos noms ainsi que notre commmentaire.</p>
                                         </div>
                                         <div class="modale__body__image">
-                                              <img id="modale__body__image2__commentaire" src="" alt="">
-                                              <p id="modale__body__text2__commentaire"></p>
+                                              <img id="modale__body__image2__commentaire" src="../../public/Média/commentaire2.PNG" alt="Deuxième capture du site communautaire">
+                                              <p id="modale__body__text2__commentaire">Une fois les informations correctement remplli, il s ajoute automatiquement dans la page web, et ce à la liste de commentaire déja présent.</p>
                                         </div>
                                         <div class="modale__body__image">
-                                              <img id="modale__body__image3__commentaire" src="" alt="">
-                                              <p id="modale__body__text3__commentaire"></p>
+                                              <img id="modale__body__image3__commentaire" src="../../public/Média/commentaire3.PNG" alt="Trosième capture du site communautaire">
+                                              <p id="modale__body__text3__commentaire">Mais attention !! si l un des champs n est pas rempli un message derreur s affichera et votre commentaire ne s ajoutera pas</p>
                                         </div>
                                   </div>
                             </div>
                       </div>
                       <div id="modale__cahier">
                             <div id="modale__header__cahier">
-                                  <h2 id="modale__header__titre2"></h2>
+                                  <h2 id="modale__header__titre2">Cahier des charges du site la socketterie</h2>
                                   <div class="modale__header__button">
                                         <button type="button" @click="modaleRealisation2()">Aller Vers la réalisation</button>
                                         <button type="button" @click="closeModale()">Fermer</button>
@@ -89,21 +89,21 @@
                             <div class="modale__body">
                                   <div class="modale__body">
                                         <div class="modale__body__image">
-                                              <img id="modale__body__image1__cahier" src="" alt="">
+                                              <img id="modale__body__image1__cahier" src="../../public/Média/cahier1.PNG" alt="Première capture du cahier des charges">
                                         </div>
                                         <div class="modale__body__image">
-                                              <img id="modale__body__image2__cahier" src="" alt="">
+                                              <img id="modale__body__image2__cahier" src="../../public/Média/cahier2.PNG" alt="Deuxième capture du cahier des charges">
                                         </div>
                                         <div class="modale__body__image">
-                                              <img id="modale__body__image3__cahier" src="" alt="">
-                                              <p id="modale__body__text3__cahier"></p>
+                                              <img id="modale__body__image3__cahier" src="../../public/Média/cahier3.PNG" alt="Trosième capture du cahier des charges">
+                                              <p id="modale__body__text3__cahier">Les informations ici haut, réprensentent l une des parties du cahier de charge fait pour l entreprise la socketterie, clique sur le lien aller vers la réalisation pour plus de detail</p>
                                         </div>
                                   </div>
                             </div>
                       </div>
                       <div id="modale__cv">
                             <div id="modale__header__cv">
-                                  <h2 id="modale__header__titre3"></h2>
+                                  <h2 id="modale__header__titre3">Première création, curriculum vitae</h2>
                                   <div class="modale__header__button">
                                         <button type="button" @click="modaleRealisation3()">Aller Vers la réalisation</button>
                                         <button type="button" @click="closeModale()">Fermer</button>
@@ -117,14 +117,14 @@
                             <div class="modale__body">
                                   <div class="modale__body">
                                         <div class="modale__body__image">
-                                              <img id="modale__body__image1__cv" src="" alt="">
+                                              <img id="modale__body__image1__cv" src="../../public/Média/cv1.PNG" alt="Première capture du cv">
                                         </div>
                                         <div class="modale__body__image">
-                                              <img id="modale__body__image2__cv" src="" alt="">
+                                              <img id="modale__body__image2__cv" src="../../public/Média/cv2.PNG" alt="Deuxième capture du cv">
                                         </div>
                                         <div class="modale__body__image">
-                                              <img id="modale__body__image3__cv" src="" alt="">
-                                              <p id="modale__body__text3__cv"></p>
+                                              <img id="modale__body__image3__cv" src="../../public/Média/cv3.PNG" alt="Trosième capture du cv">
+                                              <p id="modale__body__text3__cv">Ceci est ma toute première réalisation en html CSS, tu veux en voir plus ? clique sur le lien !</p>
                                         </div>
                                   </div>
                             </div>
@@ -156,14 +156,42 @@
                                   </div>
                       </section>
                 </section>
+                <section class="charte">
+                      <h2>Charte graphique</h2>
+                      <div class="charte__color">
+                            <div class="charte__color__1">
+                              <p>#FFBD59</p>
+                            </div>
+                            <div class="charte__color__2">
+                              <p>#b7935d</p>
+                            </div>
+                            <div class="charte__color__3">
+                              <p>#34353A</p>
+                            </div>
+                            <div class="charte__color__4">
+                              <p>#23242a</p>
+                            </div>
+                            <div class="charte__color__5">
+                              <p>rgb(179, 66, 66)</p>
+                            </div>
+                      </div>
+                      <div class="police">
+                            <h3>Police d'ecriture</h3>
+                            <div class="police__font">
+                                  <p>---'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif---</p>
+                                  <p class="courrier">---'Courier New', Courier, monospace---</p>
+                            </div>
+                      </div>
+                </section>
                 <section id="Contact">
                       <h2  class="titreDuFormulaire">Contactez Moi</h2>
+                      <!-- Ici s'afficheront les messages d'erreurs lorsque l'utilisateur n'aura pas rempli un ou tout les champs -->
                             <div class="formulaire_Error">
                                     <h3 id="formulair_message_alert">Tous les champs doivent etre remplis</h3>
-                                    <h3 id="Numsyntaxe__prenom"></h3>
-                                    <h3 id="Numsyntaxe__nom"></h3>
-                                    <h3 id="Numsyntaxe__objet"></h3>
-                                    <h3 id="Numsyntaxe__message"></h3>
+                                    <h3 id="Numsyntaxe__prenom">Il ne manque plus que votre prenom</h3>
+                                    <h3 id="Numsyntaxe__nom">Il ne manque plus que votre nom</h3>
+                                    <h3 id="Numsyntaxe__objet">Il ne manque plus que l'objet du message</h3>
+                                    <h3 id="Numsyntaxe__message">Il ne manque plus que le message</h3>
                             </div>
                             <form  id="formId" method="POST" name="formulaire_de_commentaire">
                                     <!-- L'ajout des div dans ce formualire est choix personnel afin de m'aider à
@@ -194,7 +222,7 @@ export default {
 data() {
 return {
 
-// ******C'est le font tout noir lorsq'une modale s'affiche
+// ****** C'est le font tout noir lorsq'une modale s'affiche
 overlay: null, 
 
 modale1: null, 
@@ -202,46 +230,19 @@ modale2: null,
 modale3: null, 
 messageMail: null, 
 
+// ***** Le titre des modales
 titreMoText1: null, 
 titreMoText2: null, 
 titreMoText3: null, 
 
-// ****** Les textes en dessous des images dans chaque modale
-modaleParagraph11: null, 
-modaleParagraph12: null, 
-modaleParagraph13: null, 
-modaleParagraph23: null, 
-modaleParagraph33: null, 
-
 // ****** Première modale
 modale1: null, 
-titreModale1: null, 
-modaleImage1: null, 
-modaleImage2: null, 
-modaleImage3: null, 
-modaleText1: null,
-modaleText2: null, 
-modaleText3: null, 
 
 // ****** Deuxième modale
 modale2: null,
-titreModale2: null, 
-modaleImage1Cahier: null, 
-modaleImage2Cahier: null, 
-modaleImage3Cahier: null, 
-modaleText1Cahier: null, 
-modaleText2Cahier: null, 
-modaleText3Cahier: null, 
 
 // ****** Troième modale
-modale3: null, 
-titreModale3: null, 
-modaleImage1cv: null, 
-modaleImage2cv: null, 
-modaleImage3cv: null, 
-modaleText1cv: null,
-modaleText2cv: null, 
-modaleText3cv: null, 
+modale3: null,  
 
 // ****** Pour l'envoi de l'email
 form: null, 
@@ -257,41 +258,20 @@ NumSyntaxeNom: null,
 NumSyntaxeObjet: null, 
 NumSyntaxeMessage: null, 
 
-// ****** style lorsqu'on clique sur un lien du menu
-// moiLink: null,
-// portfolioLink: null, 
-// contactLink: null
 };
 },
 methods: {
 modaleCard1() {
-  this.titreModale1.appendChild(this.titreMoText1)
-  this.modaleText1.appendChild(this.modaleParagraph11)
   this.overlay.style.display="block"
   this.modale1.style.display="block"
-  this.modaleImage1.src ='../public/Média/commentaire1.PNG'
-  this.modaleText2.appendChild(this.modaleParagraph12)
-  this.modaleImage2.src ='../public/Média/commentaire2.PNG'
-  this.modaleText3.appendChild(this.modaleParagraph13)
-  this.modaleImage3.src ='../public/Média/commentaire3.PNG'
 },
 modaleCard2() {
-  this.titreModale2.appendChild(this.titreMoText2)
   this.overlay.style.display="block"
   this.modale2.style.display="block"
-  this.modaleImage1Cahier.src ='../public/Média/cahier1.PNG'
-  this.modaleImage2Cahier.src ='../public/Média/cahier2.PNG'
-  this.modaleText3Cahier.appendChild(this.modaleParagraph23)
-  this.modaleImage3Cahier.src ='../public/Média/cahier3.PNG'
 },
 modaleCard3() {
-  this.titreModale3.appendChild(this.titreMoText3)
   this.overlay.style.display="block"
   this.modale3.style.display="block"
-  this.modaleImage1cv.src ='../public/Média/cv1.PNG'
-  this.modaleImage2cv.src ='../public/Média/cv2.PNG'
-  this.modaleText3cv.appendChild(this.modaleParagraph33)
-  this.modaleImage3cv.src ='../public/Média/cv3.PNG'
 },
 // Lien vers les réalisations mises dans le portfolio
 modaleRealisation1() {
@@ -349,32 +329,24 @@ modaleMail() {
 // Lorsqu'un champ est vide
 Erreur() {
   if(this.prenom.value == "" && (this.nom.value && this.objet.value && this.textArea.value) !== ""){
-  this.prenomError = document.createTextNode('Il ne manque plus que votre prenom')
-  this.NumSyntaxePrenom.appendChild(this.prenomError)
   this.NumSyntaxePrenom.style.display='block'
   this.NumSyntaxeNom.style.display='none'
   this.NumSyntaxeObjet.style.display='none'
   this.NumSyntaxeMessage.style.display='none'
   this.MessageError.style.display="none"
 }else if(this.nom.value == "" && (this.prenom.value && this.objet.value && this.textArea.value) !== ""){
-  this.nomError = document.createTextNode('Il ne manque plus que votre nom')
-  this.NumSyntaxeNom.appendChild(this.nomError)
   this.NumSyntaxeNom.style.display='block'
   this.NumSyntaxePrenom.style.display='none'
   this.NumSyntaxeObjet.style.display='none'
   this.NumSyntaxeMessage.style.display='none'
   this.MessageError.style.display="none"
 }else if(this.objet.value == "" && (this.prenom.value && this.nom.value && this.textArea.value) !== "") {
-  this.ObjetError = document.createTextNode('Il ne manque plus que l objet du message')
-  this.NumSyntaxeObjet.appendChild(this.ObjetError)
   this.NumSyntaxeObjet.style.display='block'
   this.NumSyntaxePrenom.style.display='none'
   this.NumSyntaxeNom.style.display='none'
   this.NumSyntaxeMessage.style.display='none'
   this.MessageError.style.display="none"
 }else if(this.textArea.value == "" && (this.prenom.value && this.nom.value && this.objet.value) !== ""){
-  this.textAError = document.createTextNode('Il ne manque plus que le message')
-  this.NumSyntaxeMessage.appendChild(this.textAError)
   this.NumSyntaxeMessage.style.display='block'
   this.NumSyntaxePrenom.style.display='none'
   this.NumSyntaxeNom.style.display='none'
@@ -410,41 +382,12 @@ this.overlay = document.getElementById('overlay')
 
 // Modale commentaire
 this.modale1 = document.getElementById('modale__commentaire')
-this.titreModale1 = document.getElementById('modale__header__titre')
-this.titreMoText1 = document.createTextNode('Dynamiser un Espace Commentaire')
-this.modaleImage1 = document.getElementById('modale__body__image1__commentaire')
-this.modaleImage2 = document.getElementById('modale__body__image2__commentaire')
-this.modaleImage3 = document.getElementById('modale__body__image3__commentaire')
-this.modaleText1 = document.getElementById('modale__body__text1__commentaire')
-this.modaleText2 = document.getElementById('modale__body__text2__commentaire')
-this.modaleText3 = document.getElementById('modale__body__text3__commentaire')
-this.modaleParagraph11 = document.createTextNode('Ce projet est le premier que j aie fait en javascript, Comme nous pouvons le voir dans ce projet nous disposons de champ que nous devons remplire afin que nous puissions ajouter nos noms ainsi que notre commmentaire.')
-this.modaleParagraph12 = document.createTextNode('Une fois les informations correctement remplli, il s ajoute automatiquement dans la page web, et ce à la liste de commentaire déja présent.')
-this.modaleParagraph13 = document.createTextNode('Mais attention !! si l un des champs n est pas rempli un message derreur s affichera et votre commentaire ne s ajoutera pas')
 
 // Modale cahier des charge
 this.modale2 = document.getElementById('modale__cahier')
-this.titreModale2 = document.getElementById('modale__header__titre2')
-this.titreMoText2 = document.createTextNode('Cahier des charges du site la socketterie')
-this.modaleImage1Cahier = document.getElementById('modale__body__image1__cahier')
-this.modaleImage2Cahier = document.getElementById('modale__body__image2__cahier')
-this.modaleImage3Cahier = document.getElementById('modale__body__image3__cahier')
-this.modaleText1Cahier = document.getElementById('modale__body__text1__cahier')
-this.modaleText2Cahier = document.getElementById('modale__body__text2__cahier')
-this.modaleText3Cahier = document.getElementById('modale__body__text3__cahier')
-this.modaleParagraph23 = document.createTextNode('Les informations ici haut, réprensentent l une des parties du cahier de charge fait pour l entreprise la socketterie, clique sur le lien aller vers la réalisation pour plus de detail')
 
 // Modale CV
 this.modale3 = document.getElementById('modale__cv')
-this.titreModale3 = document.getElementById('modale__header__titre3')
-this.modaleImage1cv = document.getElementById('modale__body__image1__cv')
-this.titreMoText3 = document.createTextNode('Première création, curriculum vitae')
-this.modaleImage2cv = document.getElementById('modale__body__image2__cv')
-this.modaleImage3cv = document.getElementById('modale__body__image3__cv')
-this.modaleText1cv = document.getElementById('modale__body__text1__cv')
-this.modaleText2cv = document.getElementById('modale__body__text2__cv')
-this.modaleText3cv = document.getElementById('modale__body__text3__cv')
-this.modaleParagraph33 = document.createTextNode('Ceci est ma toute première réalisation en html CSS, tu veux en voir plus ? clique sur le lien !')
 
 // Envoie du formulaire par mail
 this.messageMail = document.getElementById('modale__mail__confirmation')
@@ -460,11 +403,6 @@ this.NumSyntaxePrenom = document.getElementById('Numsyntaxe__prenom')
 this.NumSyntaxeNom = document.getElementById('Numsyntaxe__nom')
 this.NumSyntaxeObjet = document.getElementById('Numsyntaxe__objet')
 this.NumSyntaxeMessage = document.getElementById('Numsyntaxe__message')
-
-// Lien de navigation
-// this.moiLink =  document.getElementById('moi__link')
-// this.portfolioLink = document.getElementById('portfolio__link')
-// this.contactLink = document.getElementById('contact__link')
 },
 };
 </script>
@@ -481,9 +419,8 @@ body{
   padding: 0;
   margin: 0;
 }
-
 /* Debut du Main */
-/* Section Me */
+/* Cette section contient le nom, une petite pésentation ainsi que ma photo, c'est la section juste en dessous du menu  */
 #Me{
   display: grid;
   grid-template-columns:repeat(2,405px);
@@ -494,7 +431,6 @@ body{
   padding-top:160px;
   padding-bottom: 40px;
 }
-
 #Me h2{
   color: #FFBD59;
   font-size: 2.5em;
@@ -532,12 +468,11 @@ body{
   width: 400px;
   height: 500px;
 }
-/* Section Portfolio commence par aboutMyskills */
+/* Cette section comment à partir du titre About */
 #aboutMyskills{
   background-color:#23242a;
   margin-top: -25px;
   padding-top: 50px;
-  /* padding-bottom: 30px; */
 }
 .aboutMyskills_titre{
   padding-top: 20px;
@@ -652,7 +587,7 @@ body{
   margin-top: -55px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/* Modale */
+/* Cette partie du css apporte du style à toute mes modales */
 #overlay{
   position: fixed;
   top: 0;
@@ -818,7 +753,7 @@ body{
   border: 0 solid #FFBD59;
   background-color: #FFBD59;
 }
-/* Portfolio */
+/* Cette section est celle où j'ai mis mes realisations */
 #Portfolio{
   padding-top: 50px;
   background-color: #34353A;
@@ -858,6 +793,74 @@ body{
   height: 240px;
   border-radius: 20px 20px 0px 0;
 }
+/* Cette section est celle où il y'a les carte montrant les couleurs et polices utiliser dans ce portfolio */
+.charte{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.charte h2{
+  margin-top: 25px;
+  font-size: 1.4em;
+  width: 100%;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.charte__color{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.charte__color div{
+  margin-top: 25px;
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 1px 3px 8px 3px black;
+}
+.charte__color div p{
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.charte__color__1{
+  background-color: #FFBD59;
+}
+.charte__color__2{
+  background-color: #b7935d;
+  margin-left: -10px;
+}
+.charte__color__3{
+  background-color: #34353A;
+  margin-left: -10px;
+}
+.charte__color__4{
+  background-color: #23242a;
+  margin-left: -10px;
+}
+.charte__color__5{
+  background-color: rgb(179, 66, 66);
+  margin-left: -10px;
+}
+.police h3{
+  width: 100%;
+  padding-top: 45px;
+  text-align: center;
+  font-size: 1.4em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.police__font{
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+.police__font p{
+  color: #000;
+  text-align: center;
+} 
+.courrier{
+  padding-top: 5px;
+  font-family: 'Courier New', Courier, monospace;
+}
+/* C'est ici que commence le dormulare de contacte */
 #Contact{
   background-color: #23242a;
   display: flex;
