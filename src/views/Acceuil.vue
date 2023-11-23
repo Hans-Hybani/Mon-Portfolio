@@ -1,11 +1,13 @@
 <script setup>
-import Code from '../components/Code.vue'
-import foote from '../components/foote.vue';
+import headvue from '../components/head.vue';
+import Codevue from '../components/Code.vue'
+import footevue from '../components/foote.vue';
 </script>
 
 <template>
   <main>
-    <Code />
-    <foote />
+    <headvue />
+    <Codevue />
+    <footevue />
   </main>
 </template>
