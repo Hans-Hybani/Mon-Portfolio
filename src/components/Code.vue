@@ -156,8 +156,36 @@
                                   </div>
                       </section>
                 </section>
+                <section class="charte">
+                      <h2>Charte graphique</h2>
+                      <div class="charte__color">
+                            <div class="charte__color__1">
+                              <p>#FFBD59</p>
+                            </div>
+                            <div class="charte__color__2">
+                              <p>#b7935d</p>
+                            </div>
+                            <div class="charte__color__3">
+                              <p>#34353A</p>
+                            </div>
+                            <div class="charte__color__4">
+                              <p>#23242a</p>
+                            </div>
+                            <div class="charte__color__5">
+                              <p>rgb(179, 66, 66)</p>
+                            </div>
+                      </div>
+                      <div class="police">
+                            <h3>Police d'ecriture</h3>
+                            <div class="police__font">
+                                  <p>---'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif---</p>
+                                  <p class="courrier">---'Courier New', Courier, monospace---</p>
+                            </div>
+                      </div>
+                </section>
                 <section id="Contact">
                       <h2  class="titreDuFormulaire">Contactez Moi</h2>
+                      <!-- Ici s'afficheront les messages d'erreurs lorsque l'utilisateur n'aura pas rempli un ou tout les champs -->
                             <div class="formulaire_Error">
                                     <h3 id="formulair_message_alert">Tous les champs doivent etre remplis</h3>
                                     <h3 id="Numsyntaxe__prenom"></h3>
@@ -481,9 +509,8 @@ body{
   padding: 0;
   margin: 0;
 }
-
 /* Debut du Main */
-/* Section Me */
+/* Cette section contient le nom, une petite pésentation ainsi que ma photo, c'est la section juste en dessous du menu  */
 #Me{
   display: grid;
   grid-template-columns:repeat(2,405px);
@@ -494,7 +521,6 @@ body{
   padding-top:160px;
   padding-bottom: 40px;
 }
-
 #Me h2{
   color: #FFBD59;
   font-size: 2.5em;
@@ -532,12 +558,11 @@ body{
   width: 400px;
   height: 500px;
 }
-/* Section Portfolio commence par aboutMyskills */
+/* Cette section comment à partir du titre About */
 #aboutMyskills{
   background-color:#23242a;
   margin-top: -25px;
   padding-top: 50px;
-  /* padding-bottom: 30px; */
 }
 .aboutMyskills_titre{
   padding-top: 20px;
@@ -652,7 +677,7 @@ body{
   margin-top: -55px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/* Modale */
+/* Cette partie du css apporte du style à toute mes modales */
 #overlay{
   position: fixed;
   top: 0;
@@ -818,7 +843,7 @@ body{
   border: 0 solid #FFBD59;
   background-color: #FFBD59;
 }
-/* Portfolio */
+/* Cette section est celle où j'ai mis mes realisations */
 #Portfolio{
   padding-top: 50px;
   background-color: #34353A;
@@ -858,6 +883,74 @@ body{
   height: 240px;
   border-radius: 20px 20px 0px 0;
 }
+/* Cette section est celle où il y'a les carte montrant les couleurs et polices utiliser dans ce portfolio */
+.charte{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.charte h2{
+  margin-top: 25px;
+  font-size: 1.4em;
+  width: 100%;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.charte__color{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.charte__color div{
+  margin-top: 25px;
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 1px 3px 8px 3px black;
+}
+.charte__color div p{
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.charte__color__1{
+  background-color: #FFBD59;
+}
+.charte__color__2{
+  background-color: #b7935d;
+  margin-left: -10px;
+}
+.charte__color__3{
+  background-color: #34353A;
+  margin-left: -10px;
+}
+.charte__color__4{
+  background-color: #23242a;
+  margin-left: -10px;
+}
+.charte__color__5{
+  background-color: rgb(179, 66, 66);
+  margin-left: -10px;
+}
+.police h3{
+  width: 100%;
+  padding-top: 45px;
+  text-align: center;
+  font-size: 1.4em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.police__font{
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+.police__font p{
+  color: #000;
+  text-align: center;
+} 
+.courrier{
+  padding-top: 5px;
+  font-family: 'Courier New', Courier, monospace;
+}
+/* C'est ici que commence le dormulare de contacte */
 #Contact{
   background-color: #23242a;
   display: flex;
