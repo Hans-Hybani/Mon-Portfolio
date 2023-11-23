@@ -13,7 +13,7 @@
                 </section>
                 <section class="end">
                         <h2>Dernière mise à jour :</h2>
-                        <p><time datetime="2023-11-20">Le 20/11/2023</time></p>
+                        <p><time datetime="2023-11-20">Le 23/11/2023</time></p>
                 </section>
         </footer>
 </template>
