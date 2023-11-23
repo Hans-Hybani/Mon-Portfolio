@@ -8,9 +8,12 @@
                                 <a href="https://twitter.com/HybaniHans" target="_blank"><img src="../../public/Média/twitter.png" alt="Icone vers mon compte Twitter"></a>
                         </div>
                 </section>
-                <section id="end">
+                <section class="copy">
+                        <h2> |Copyright &copy;2023| Codé par HYBANI PRINCIA Hans. |</h2>
+                </section>
+                <section class="end">
                         <h2>Dernière mise à jour :</h2>
-                        <p id=""><time datetime="2023-11-20">Le 20/11/2023</time></p>
+                        <p><time datetime="2023-11-20">Le 20/11/2023</time></p>
                 </section>
         </footer>
 </template>
@@ -42,14 +45,18 @@ footer {
   width: 40px;
   height: 40px;
 }
-#end{
+.copy h2{
+  color: #FFF;
+  font-size: 1.1em;
+}
+.end{
  display: flex;
  flex-wrap: wrap;
 }
-#end p {
+.end p {
   padding-left: 5px;
 }
-#end h2,p{
+.end h2,p{
   color: #FFF;
   font-size: 1.4em;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
