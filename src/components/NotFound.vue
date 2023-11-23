@@ -10,7 +10,7 @@ import footevue from './foote.vue';
                         <img src="../../public/Média/6324728.jpg" alt="">
                 </div>
                 <div class="redirection">
-                        <p><strong>404</strong> La page que vous recherchez n'existe pas, veuillez revenir à l'acceuil</p> 
+                        <p><strong>404</strong>La page que vous recherchez n'existe pas, veuillez revenir à l'acceuil</p> 
                         <a href="http://localhost:5174/">ici</a>
                 </div>  
         </main>
