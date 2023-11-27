@@ -14,7 +14,7 @@ A. Si vous avez téléchargé ce projet :
 
 B. Si vous êtes à l'aise avec GitHub :
 1. Clonez le projet depuis https://github.com/Hans-Hybani/Mon-Portfolio.
-2. Suivez les étapes E et F ci-dessus.
+2. Suivez les étapes 5 et 6 ci-dessus.
 
 # testRouter
 
