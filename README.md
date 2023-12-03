@@ -24,10 +24,10 @@ ou externe, un programme exécutable ou un fichier de commandes.
 lorsque vous lancez la commande npm run dev, cela voudrais donc dire que vite n'est pas installer, vous ne pourrez donc pas lancer le serveur de développement.
 Solution : 
 1. Installer vite globalement avec la commande :
-   npm install -g create-vite
+   npm install -g create-vite,
 Cette commande installe Vite globalement afin qu'il puisse être utilisé comme une commande système.
 2. Installer vite dans le projet avec la commande :
-   npm install vite --save-dev
+   npm install vite --save-dev,
 Elle installera vite dans ce projet que vous avez télécharger dans votre pc.
 
 # testRouter
