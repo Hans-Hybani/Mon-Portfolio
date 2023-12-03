@@ -16,6 +16,20 @@ B. Si vous êtes à l'aise avec GitHub :
 1. Clonez le projet depuis https://github.com/Hans-Hybani/Mon-Portfolio.
 2. Suivez les étapes 5 et 6 ci-dessus.
 
+ATTENTION !!
+Si vous rencontrez une erreurs de type :
+'vite' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+lorsque vous lancez la commande npm run dev, cela voudrais donc dire que vite n'est pas installer, vous ne pourrez donc pas lancer le serveur de développement.
+Solution : 
+1. Installer vite globalement avec la commande :
+   npm install -g create-vite
+Cette commande installe Vite globalement afin qu'il puisse être utilisé comme une commande système.
+2. Installer vite dans le projet avec la commande :
+   npm install vite --save-dev
+Elle installera vite dans ce projet que vous avez télécharger dans votre pc.
+
 # testRouter
 
 This template should help get you started developing with Vue 3 in Vite.
