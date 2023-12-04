@@ -19,35 +19,35 @@ import footevue from './foote.vue';
 
 <style scoped>
 .image404{
-        padding-top: 100px;
-        display: flex;
-        justify-content: center;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
 }
 .image404 img{
-       width: 50%;
-       height: 600px;
+  width: 50%;
+  height: 600px;
 }
 .redirection{
-        height: 100px;
-        background-color: #b7935d;
+  height: 100px;
+  background-color: #b7935d;
 }
 .redirection{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
 }
 .redirection p{
-        text-align: center;
-        align-items: center;
-        width: 100%;
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: bold;
-        margin-top: 10px;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  margin-top: 10px;
 }
 .redirection a{
-        text-decoration: none;
-        color: rgb(179, 66, 66);
-        font-size: 1.5em;
+  text-decoration: none;
+  color: rgb(179, 66, 66);
+  font-size: 1.5em;
 }
 </style>

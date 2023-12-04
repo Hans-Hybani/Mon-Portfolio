@@ -2,7 +2,7 @@
         <header id="menu">
                 <nav>
                       <div class="logo">
-                            <a href="#menu"><img src="../../public/Média/hans.png" alt=""></a>
+                            <a href="#menu"><img src="../../public/Média/hans.png" alt="logo du site"></a>
                       </div>
                       <div class="nav_link">
                             <ul>
