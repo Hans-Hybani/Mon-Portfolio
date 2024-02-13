@@ -15,7 +15,7 @@
           <section id="aboutMyskills">
                 <h2 class="aboutMyskills_titre">A propos</h2>
                 <div class="aboutMyskills_description">
-                      <p>Mes premiers pas dans le développement ont débuté avec HTML et CSS, que j'ai rapidement maîtrisés. En quête d'interactivité, j'ai plongé dans JavaScript, marquant mon entrée dans le monde complexe du développement. Vue.js a ensuite été un défi, devenant mes "hard skills". En parallèle, je me suis initié au design web avec Adobe XD, fusionnant ainsi le code et le design.Ma liste de compétences ne cesse de s'élargir. Actuellement à l'aise avec HTML, CSS, JavaScript, je suis sur le point d'intégrer Python et Figma à mes compétences. De plus, l'apprentissage du framework React est également prévu dans mon parcours.</p>
+                      <p>Mes premiers pas dans le développement ont débuté avec du HTML et du CSS, que j'ai rapidement maîtrisés. En quête d'interactivité, j'ai plongé dans du JavaScript, marquant mon entrée dans le monde complexe du développement. Vue.js a ensuite été un défi, devenant ainsi mon premier framwork. En parallèle, je me suis initié au design web avec Adobe XD, fusionnant ainsi le code et le design.Ma liste de compétences ne cesse de s'élargir. Actuellement à l'aise avec HTML, CSS, JavaScript, je suis sur le point d'intégrer Python et Figma à mes compétences. De plus, l'apprentissage du framework React est également prévu dans mon parcours.</p>
                 </div>
                 <section class="aboutMyskills_skills">
                       <h3>Hard & Soft skills</h3>
@@ -199,10 +199,6 @@ return {
 
   // ****** C'est le font tout noir lorsq'une modale s'affiche
   overlay: null, 
-
-  modale1: null, 
-  modale2: null, 
-  modale3: null, 
   messageMail: null, 
 
   // ***** Le titre des modales
