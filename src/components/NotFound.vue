@@ -7,7 +7,7 @@ import footevue from './foote.vue';
         <headvue/>
         <main>
                 <div class="image404">
-                        <img src="../../public/Média/6324728.jpg" alt="Image 404 page non trouvé">
+                        <img src="/Média/6324728.jpg" alt="Image 404 page non trouvé">
                 </div>
                 <div class="redirection">
                         <p><strong>404</strong>La page que vous recherchez n'existe pas, veuillez revenir à l'acceuil</p> 
