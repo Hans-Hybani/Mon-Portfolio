@@ -2,6 +2,7 @@
 import headvue from './head.vue';
 import footevue from './foote.vue';
 
+
 </script>
 <template>
         <headvue/>
