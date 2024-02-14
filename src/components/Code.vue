@@ -10,7 +10,7 @@
                     </div>
                 </div>
                 <div class="Me_photoDeProfil">
-                      <img src="/Média/photo1.png" alt="photo de profil de Hans Hybani">
+                      <img src="../../public/Média/photo1.png" alt="photo de profil de Hans Hybani">
                 </div>
           </section>
   
@@ -23,32 +23,32 @@
                       <h3>Hard & Soft skills</h3>
                       <div class="aboutMyskills_outils">
                             <div class="skills">
-                                  <img src="/Média/html-5.png" alt="image de html 5">
-                                  <img src="/Média/css-3.png" alt="image de css 3">
+                                  <img src="../../public/Média/html-5.png" alt="image de html 5">
+                                  <img src="../../public/Média/css-3.png" alt="image de css 3">
                                   <p>HTML & CSS</p>
                             </div>
                             <div class="skills">
-                                  <img src="/Média/js.png" alt="image de javascript">
+                                  <img src="../../public/Média/js.png" alt="image de javascript">
                                   <p>JAVASCRIPT</p>
                             </div>
                             <div class="skills">
-                                  <img src="/Média/vue.png" alt="image de vue js">
+                                  <img src="../../public/Média/vue.png" alt="image de vue js">
                                   <p>VueJS</p>
                             </div>
                             <div class="skills">
-                                  <img src="/Média/Angular.png" alt="image d'angular">
+                                  <img src="../../public/Média/Angular.png" alt="image d'angular">
                                   <p>Angular</p>
                             </div>
                             <div class="skills">
-                                  <img src="/Média/figma.png" alt="image de figma">
+                                  <img src="../../public/Média/figma.png" alt="image de figma">
                                   <p>Figma</p>
                             </div>
                             <div class="skills">
-                                  <img src="/Média/React.png" alt="image de React">
+                                  <img src="../../public/Média/React.png" alt="image de React">
                                   <p>React</p>
                             </div>
                             <div class="skills">
-                                  <img src="/Média/xd.png" alt="image d'adobe XD">
+                                  <img src="../../public/Média/xd.png" alt="image d'adobe XD">
                                   <p>Adobe XD</p>
                             </div>
                         </div>
@@ -73,37 +73,37 @@
                             <div class="Portfolio_realisation all card main">
                                   <a href="https://trouve-ton-artisan.vercel.app/" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card espaceCommentaire">
-                                            <img src="/Média/artisan.PNG" alt="Une image qui envoie vers le lien du site trouve un artisan">
+                                            <img src="../../public/Média/artisan.PNG" alt="Une image qui envoie vers le lien du site trouve un artisan">
                                             <p>trouve ton artisan</p>
                                       </div>
                                   </a>
                                   <a href="https://petit-village.vercel.app/" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card cahierDeCharge">
-                                            <img src="/Média/figurine.PNG" alt="Une image qui envoie vers un fichier pdf du cahier de charge la socketterie">
+                                            <img src="../../public/Média/figurine.PNG" alt="Une image qui envoie vers un fichier pdf du cahier de charge la socketterie">
                                             <p>Petit village</p>
                                       </div>
                                   </a>
                                   <a href="https://john-doe-cv.vercel.app/" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card">
-                                            <img src="/Média/cvv.PNG" alt="Une image qui envoie vers le site de mon CV">
+                                            <img src="../../public/Média/cvv.PNG" alt="Une image qui envoie vers le site de mon CV">
                                             <p>CV de John Doe</p>
                                       </div>
                                   </a>
-                                  <a href="/dispro.pdf" target="_blank" rel="noopener noreferrer">
+                                  <a href="../../public/dispro.pdf" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card">
-                                            <img src="/Média/dispromalt.PNG" alt="Une image qui envoie vers le pdf gestion">
+                                            <img src="../../public/Média/dispromalt.PNG" alt="Une image qui envoie vers le pdf gestion">
                                             <p>Projet XD - Gestion</p>
                                       </div>
                                   </a>
-                                  <a href="/ProjetProcFin.pdf" target="_blank" rel="noopener noreferrer">
+                                  <a href="../../public/ProjetProcFin.pdf" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card">
-                                            <img src="/Média/procfin.PNG" alt="Une image qui envoie vers le pdf caisse">
+                                            <img src="../../public/Média/procfin.PNG" alt="Une image qui envoie vers le pdf caisse">
                                             <p>Porjet XD - Bank</p>
                                       </div>
                                   </a>
-                                  <a href="/SpringProject.pdf" target="_blank" rel="noopener noreferrer">
+                                  <a href="../../public/SpringProject.pdf" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card">
-                                            <img src="/Média/spring.PNG" alt="Une image qui envoie vers le pdf caisse">
+                                            <img src="../../public/Média/spring.PNG" alt="Une image qui envoie vers le pdf caisse">
                                             <p>Projet XD - Caisse</p>
                                       </div>
                                   </a>

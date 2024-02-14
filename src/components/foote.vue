@@ -3,9 +3,9 @@
                 <section class="Reseau">
                         <h2>Mes réseaux</h2>
                         <div class="Reseau__link">
-                                <a href="https://www.linkedin.com/in/hans-h-bb5336293/" target="_blank"><img src="/Média/linkedin.png" alt="Icone vers mon compte Linkdin"></a>
-                                <a href="https://github.com/Hans-Hybani" target="_blank"><img src="/Média/signe-github.png" alt="Icone vers mon compte GitHub"></a>
-                                <a href="https://twitter.com/HybaniHans" target="_blank"><img src="/Média/twitter.png" alt="Icone vers mon compte Twitter"></a>
+                                <a href="https://www.linkedin.com/in/hans-h-bb5336293/" target="_blank"><img src="../../public/Média/linkedin.png" alt="Icone vers mon compte Linkdin"></a>
+                                <a href="https://github.com/Hans-Hybani" target="_blank"><img src="../../public/Média/signe-github.png" alt="Icone vers mon compte GitHub"></a>
+                                <a href="https://twitter.com/HybaniHans" target="_blank"><img src="../../public/Média/twitter.png" alt="Icone vers mon compte Twitter"></a>
                         </div>
                 </section>
                 <section class="copy">

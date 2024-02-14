@@ -2,7 +2,7 @@
         <header id="menu">
                 <nav>
                       <div class="logo">
-                            <a href="#menu"><img src="/Média/hans.png" alt="logo du site"></a>
+                            <a href="#menu"><img src="../../public/Média/hans.png" alt="logo du site"></a>
                       </div>
                       <div class="nav_link">
                             <ul>
@@ -89,7 +89,7 @@ nav{
 
 @media only screen and (max-width: 768px) {
   nav {
-    height: 110px;
+    height: 10px;
   }
 
   .logo img {
