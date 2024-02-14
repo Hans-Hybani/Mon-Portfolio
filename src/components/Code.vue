@@ -73,37 +73,37 @@
                             <div class="Portfolio_realisation all card main">
                                   <a href="https://trouve-ton-artisan.vercel.app/" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card espaceCommentaire">
-                                            <img src="" alt="Une image qui envoie vers le lien du site trouve un artisan">
-                                            <p>trouve ton artisan</p>
+                                            <img src="../../public/Média/Logo.png" alt="">
+                                            <p>Trouve ton artisan</p>
                                       </div>
                                   </a>
                                   <a href="https://petit-village.vercel.app/" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card cahierDeCharge">
-                                            <img src="" alt="Une image qui envoie vers un fichier pdf du cahier de charge la socketterie">
+                                            <img src="../../public/Média/lecampsromain.jpg" alt="Une image qui envoie vers un fichier pdf du cahier de charge la socketterie">
                                             <p>Petit village</p>
                                       </div>
                                   </a>
                                   <a href="https://john-doe-cv.vercel.app/" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card">
-                                            <img src="" alt="Une image qui envoie vers le site de mon CV">
+                                            <img src="../../public/Média/softwaredeveloper.jpg" alt="Une image qui envoie vers le site de mon CV">
                                             <p>CV de John Doe</p>
                                       </div>
                                   </a>
                                   <a href="../../public/dispro.pdf" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card">
-                                            <img src="" alt="Une image qui envoie vers le pdf gestion">
+                                            <img src="../../public/Média/Dashboard.png" alt="Une image qui envoie vers le pdf gestion">
                                             <p>Projet XD - Gestion</p>
                                       </div>
                                   </a>
                                   <a href="../../public/ProjetProcFin.pdf" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card">
-                                            <img src="" alt="Une image qui envoie vers le pdf caisse">
+                                            <img src="../../public/Média/Carte.jpg" alt="Une image qui envoie vers le pdf caisse">
                                             <p>Porjet XD - Bank</p>
                                       </div>
                                   </a>
                                   <a href="../../public/SpringProject.pdf" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card">
-                                            <img src="" alt="Une image qui envoie vers le pdf caisse">
+                                            <img src="../../public/Média/Caisse.jpg" alt="Une image qui envoie vers le pdf caisse">
                                             <p>Projet XD - Caisse</p>
                                       </div>
                                   </a>
@@ -721,16 +721,16 @@ a{
 }
 .Portfolio_realisation div{
   background-color: #23242a;
-  width: 350px;
-  height: 250px;
+  width: 400px;
+  height: 300px;
   border-radius: 20px;
 }
 .Portfolio_realisation div:hover{
   box-shadow: 12px 12px 22px 0 #000;
 }
 .Portfolio_realisation img{
-  width: 350px;
-  height: 200px;
+  width: 400px;
+  height: 250px;
   border-radius: 20px 20px 0px 0;
 }
 /* Cette section est celle où il y'a les carte montrant les couleurs et polices utiliser dans ce portfolio */

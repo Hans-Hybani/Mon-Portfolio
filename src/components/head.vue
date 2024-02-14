@@ -89,7 +89,7 @@ nav{
 
 @media only screen and (max-width: 768px) {
   nav {
-    height: 10px;
+    height: 130px;
   }
 
   .logo img {
