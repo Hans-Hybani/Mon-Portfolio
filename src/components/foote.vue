@@ -9,11 +9,7 @@
                         </div>
                 </section>
                 <section class="copy">
-                        <h2> |Copyright &copy;2023| Codé par HYBANI PRINCIA Hans. |</h2>
-                </section>
-                <section class="end">
-                        <h2>Dernière mise à jour :</h2>
-                        <p><time datetime="2023-11-20">Le 04/12/2023</time></p>
+                        <h2> |Copyright &copy;2024| Codé par HYBANI PRINCIA Hans. |</h2>
                 </section>
         </footer>
 </template>
@@ -21,10 +17,15 @@
 /* footer formulaire */
 footer {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   background-color: #34353A;
   padding-bottom: 50px;
   padding-top:20px;
+  gap: 10px;
+}
+.Reseau{
+  width: 100%;
 }
 .Reseau h2{
   display: flex;
@@ -35,8 +36,9 @@ footer {
 }
 .Reseau__link{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding-top: 20px;
+  gap: 20px;
 }
 .Reseau__link a:hover{
   opacity: 20%;
@@ -46,6 +48,7 @@ footer {
   height: 40px;
 }
 .copy h2{
+  align-items: center;
   color: #FFF;
   font-size: 1.1em;
 }

@@ -1,11 +1,13 @@
 <template>
   <main>
           <section id="Me">
-                <h2 class="Me_titre">HYBANI PRINCIA Hans</h2>
-                <div class="Me_monProfil">
-                      <p class="Me_monProfil__titre">Développeur Web et Mobile<br>
-                      & <span> & Web Designer Junior</span></p>
-                      <p class="Me_monProfil__presentation">Jeune développeur web et mobile je suis particulièrement passionné par le web design. J'exprime ma créativité avec Adobe XD. En dehors du code, j'explore l'astronomie ainsi que divers thème culturelle. Mon scientifique préféré est Stephen Hawking, il m'inspire à surmonter les obstacles. Je crois que, malgré les handicaps, on peut accomplir de grandes choses. Mon parcours est une aventure continue d'apprentissage et de croissance dans le monde du développement. Ce portfolio en est une prémisse</p>
+                <div class="Me_text">
+                    <h2 class="Me_titre">HYBANI PRINCIA Hans</h2>
+                    <div class="Me_monProfil">
+                          <p class="Me_monProfil__titre">Développeur Web et Mobile<br>
+                          & <span> & Web Designer Junior</span></p>
+                          <p class="Me_monProfil__presentation">Jeune développeur web et mobile je suis particulièrement passionné par le web design. J'exprime ma créativité avec Adobe XD. En dehors du code, j'explore l'astronomie ainsi que divers thème culturelle. Mon scientifique préféré est Stephen Hawking, il m'inspire à surmonter les obstacles. Je crois que, malgré les handicaps, on peut accomplir de grandes choses. Mon parcours est une aventure continue d'apprentissage et de croissance dans le monde du développement. Ce portfolio en est une prémisse</p>
+                    </div>
                 </div>
                 <div class="Me_photoDeProfil">
                       <img src="../../public/Média/photo1.png" alt="photo de profil de Hans Hybani">
@@ -19,21 +21,33 @@
                 </div>
                 <section class="aboutMyskills_skills">
                       <h3>Hard & Soft skills</h3>
-                      <div class="aboutMyskills_outils card">
-                            <div class="htmlCss card">
+                      <div class="aboutMyskills_outils">
+                            <div class="skills">
                                   <img src="../../public/Média/html-5.png" alt="image de html 5">
                                   <img src="../../public/Média/css-3.png" alt="image de css 3">
                                   <p>HTML & CSS</p>
                             </div>
-                            <div class="javaScript card">
+                            <div class="skills">
                                   <img src="../../public/Média/js.png" alt="image de javascript">
                                   <p>JAVASCRIPT</p>
                             </div>
-                            <div class="vueJs card">
+                            <div class="skills">
                                   <img src="../../public/Média/vue.png" alt="image de vue js">
                                   <p>VueJS</p>
                             </div>
-                            <div class="adobeXD card">
+                            <div class="skills">
+                                  <img src="../../public/Média/Angular.png" alt="image d'angular">
+                                  <p>Angular</p>
+                            </div>
+                            <div class="skills">
+                                  <img src="../../public/Média/figma.png" alt="image de figma">
+                                  <p>Figma</p>
+                            </div>
+                            <div class="skills">
+                                  <img src="../../public/Média/React.png" alt="image de React">
+                                  <p>React</p>
+                            </div>
+                            <div class="skills">
                                   <img src="../../public/Média/xd.png" alt="image d'adobe XD">
                                   <p>Adobe XD</p>
                             </div>
@@ -45,66 +59,6 @@
                 <div id="overlay" @click="exitModaleOverlay()"></div>
                 <!-- il y'a trois réalisation, j'ai donc fait trois modale car je rencontrais des problèmes lorsque je chargeais les informations 
                 dans la modale -->
-                <div id="modale__commentaire">
-                      <div id="modale__header__commentaire">
-                            <h2 id="modale__header__titre">Dynamiser un Espace Commentaire</h2>
-                            <div class="modale__header__button">
-                                  <button type="button" @click="modaleRealisation1()">Aller Vers la réalisation</button>
-                                  <button type="button" @click="closeModale()">Fermer</button>
-                            </div>
-                            <div class="modale__header__information">
-                                  <p><time datetime="2023-11-07">Date de création : 07 Novembre 2023</time></p>
-                                  <p>Technologie : HTML & CSS, JavaScript</p>
-                                  <p>GitHub :<a href="https://github.com/Hans-Hybani/EspaceCommentaireCEF" target="_blank">Ici</a></p>
-                            </div>
-                      </div>
-                      <div class="modale__body">
-                            <img src="../../public/Média/commentaire1.PNG" alt="Première capture du site communautaire">
-                            <p>Ce projet est le premier que j aie fait en javascript, Comme nous pouvons le voir dans ce projet nous disposons de champ que nous devons remplire afin que nous puissions ajouter nos noms ainsi que notre commmentaire.</p>
-                            <img src="../../public/Média/commentaire2.PNG" alt="Deuxième capture du site communautaire">
-                            <p>Une fois les informations correctement remplli, il s ajoute automatiquement dans la page web, et ce à la liste de commentaire déja présent.</p>
-                            <img src="../../public/Média/commentaire3.PNG" alt="Trosième capture du site communautaire">
-                            <p>Mais attention !! si l un des champs n est pas rempli un message derreur s affichera et votre commentaire ne s ajoutera pas</p>
-                      </div>
-                </div>
-                <div id="modale__cahier">
-                      <div id="modale__header__cahier">
-                            <h2 id="modale__header__titre2">Cahier des charges du site la socketterie</h2>
-                            <div class="modale__header__button">
-                                  <button type="button" @click="modaleRealisation2()">Aller Vers la réalisation</button>
-                                  <button type="button" @click="closeModale()">Fermer</button>
-                            </div>
-                            <div class="modale__header__information">
-                                  <p><time datetime="2023-10-18">Date de création : 18 Octobre 2023</time></p>
-                            </div>
-                      </div>
-                      <div class="modale__body">
-                            <img src="../../public/Média/cahier1.PNG" alt="Première capture du cahier des charges">
-                            <img src="../../public/Média/cahier2.PNG" alt="Deuxième capture du cahier des charges">   
-                            <img src="../../public/Média/cahier3.PNG" alt="Trosième capture du cahier des charges">
-                            <p>Les informations ici haut, réprensentent l une des parties du cahier de charge fait pour l entreprise la socketterie, clique sur le lien aller vers la réalisation pour plus de detail</p>
-                      </div>
-                </div>
-                <div id="modale__cv">
-                      <div id="modale__header__cv">
-                            <h2>Première création, curriculum vitae</h2>
-                            <div class="modale__header__button">
-                                  <button type="button" @click="modaleRealisation3()">Aller Vers la réalisation</button>
-                                  <button type="button" @click="closeModale()">Fermer</button>
-                            </div>
-                            <div class="modale__header__information">
-                                  <p><time datetime="2023-10-08">Date de création : 08 Octobre 2023.</time></p>
-                                  <p>Technologie : HTML & CSS</p>
-                                  <p>GitHub :<a href="https://github.com/Hans-Hybani/My-CV" target="_blank">Ici</a></p>
-                            </div>
-                      </div>
-                      <div class="modale__body">
-                            <img src="../../public/Média/cv1.PNG" alt="Première capture du cv">
-                            <img src="../../public/Média/cv2.PNG" alt="Deuxième capture du cv">
-                            <img src="../../public/Média/cv3.PNG" alt="Trosième capture du cv">
-                            <p>Ceci est ma toute première réalisation en html CSS, tu veux en voir plus ? clique sur le lien !</p>
-                      </div>
-                </div>
                 <!-- Et cette quatrieme modale ne s'affiche que si vous avez correctement rempli le formulaire, afin de l'envoyer -->
                 <div id="modale__mail__confirmation">
                       <div class="modale__mail__confirmation__titre">
@@ -117,18 +71,42 @@
                 <section id="Portfolio">
                       <h2 class="Portfolio_titre">Portfolio</h2>
                             <div class="Portfolio_realisation all card main">
-                                  <div @click="modaleCard1()" class="Portfolio_realisation all card espaceCommentaire">
-                                        <img src="../../public/Média/commentaire.PNG" alt="Une image qui envoie vers le lien du site dynamiser une espace commentaire">
-                                        <p>Espace Commentaire Dynamique</p>
-                                  </div>
-                                  <div @click="modaleCard2()" class="Portfolio_realisation all card cahierDeCharge">
-                                        <img src="../../public/Média/cahier.PNG" alt="Une image qui envoie vers un fichier pdf du cahier de charge la socketterie">
-                                        <p>Cahier des charges</p>
-                                  </div>
-                                  <div @click="modaleCard3()" class="Portfolio_realisation all card">
-                                        <img src="../../public/Média/cv.PNG" alt="Une image qui envoie vers le site de mon CV">
-                                        <p>Mon CV</p>
-                                  </div>
+                                  <a href="https://trouve-ton-artisan.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                      <div class="Portfolio_realisation all card espaceCommentaire">
+                                            <img src="../../public/Média/artisan.PNG" alt="Une image qui envoie vers le lien du site trouve un artisan">
+                                            <p>trouve ton artisan</p>
+                                      </div>
+                                  </a>
+                                  <a href="https://petit-village.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                      <div class="Portfolio_realisation all card cahierDeCharge">
+                                            <img src="../../public/Média/figurine.PNG" alt="Une image qui envoie vers un fichier pdf du cahier de charge la socketterie">
+                                            <p>Petit village</p>
+                                      </div>
+                                  </a>
+                                  <a href="https://john-doe-cv.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                      <div class="Portfolio_realisation all card">
+                                            <img src="../../public/Média/cvv.PNG" alt="Une image qui envoie vers le site de mon CV">
+                                            <p>CV de John Doe</p>
+                                      </div>
+                                  </a>
+                                  <a href="../../public/dispro.pdf" target="_blank" rel="noopener noreferrer">
+                                      <div class="Portfolio_realisation all card">
+                                            <img src="../../public/Média/dispromalt.PNG" alt="Une image qui envoie vers le pdf gestion">
+                                            <p>Projet XD - Gestion</p>
+                                      </div>
+                                  </a>
+                                  <a href="../../public/ProjetProcFin.pdf" target="_blank" rel="noopener noreferrer">
+                                      <div class="Portfolio_realisation all card">
+                                            <img src="../../public/Média/procfin.PNG" alt="Une image qui envoie vers le pdf caisse">
+                                            <p>Porjet XD - Bank</p>
+                                      </div>
+                                  </a>
+                                  <a href="../../public/SpringProject.pdf" target="_blank" rel="noopener noreferrer">
+                                      <div class="Portfolio_realisation all card">
+                                            <img src="../../public/Média/spring.PNG" alt="Une image qui envoie vers le pdf caisse">
+                                            <p>Projet XD - Caisse</p>
+                                      </div>
+                                  </a>
                             </div>
                 </section>
           </section>
@@ -196,7 +174,6 @@
 export default {
 data() {
 return {
-
   // ****** C'est le font tout noir lorsq'une modale s'affiche
   overlay: null, 
   messageMail: null, 
@@ -390,17 +367,22 @@ body{
   padding: 0;
   margin: 0;
 }
+a{
+  text-decoration: none;
+}
 /* Debut du Main */
 /* Cette section contient le nom, une petite pésentation ainsi que ma photo, c'est la section juste en dessous du menu  */
 #Me{
-  display: grid;
-  grid-template-columns:repeat(2,405px);
-  grid-template-rows: repeat(1,50px);
-  gap: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
   justify-content: space-evenly;
   background-color: #34353A;
   padding-top:160px;
   padding-bottom: 40px;
+}
+.Me_text{
+  width: 400px;
 }
 #Me h2{
   color: #FFBD59;
@@ -408,11 +390,10 @@ body{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .Me_monProfil{
-  grid-area: 2 / 1;
-  margin-top: -30px;
+  margin-top: 10px;
 }
 .Me_monProfil__presentation{
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 1.3em;
   text-indent: 30px;
   text-align: justify;
@@ -431,7 +412,6 @@ body{
   height: 500px;
   background-color: #34353A;
   border-radius: 15px;
-  grid-area: 1 / 2;
   overflow: hidden;
   box-shadow: 3px 3px 9px 3px #FFF;
 }
@@ -439,6 +419,39 @@ body{
   width: 400px;
   height: 500px;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+.Me_text{
+  width: 700px;  
+}
+.Me_photoDeProfil img{
+  width: 300px;
+  height: 400px;
+}
+.Me_photoDeProfil{
+  border: 3px solid #FFBD59;
+  height: 400px;
+  background-color: #34353A;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 3px 3px 9px 3px #FFF;
+}
+}
+@media only screen and (max-width: 767px) {
+.Me_photoDeProfil img{
+  width: 350px;
+  height: 450px;
+}
+.Me_photoDeProfil{
+  border: 3px solid #FFBD59;
+  height: 350px;
+  background-color: #34353A;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 3px 3px 9px 3px #FFF;
+}
+}
+
 /* Cette section comment à partir du titre About */
 #aboutMyskills{
   background-color:#23242a;
@@ -460,6 +473,8 @@ body{
 }
 .aboutMyskills_description p{
   width: 1100px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-size: 1.4em;
   text-align: justify;
   color: #fff;
@@ -470,93 +485,39 @@ body{
   justify-content: center;
   color: #fff;
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   font-size: 1.9em;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .aboutMyskills_outils{
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-around;
   padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 30px;
 }
 .aboutMyskills_outils div{
   background-color: #34353A;
   box-shadow: 2px 2px 2px 2px #000;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 30px;
 }
-.htmlCss{
+.skills{
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
-  gap: 10px;
+  text-align: center;
 }
-.htmlCss img{
-  width: 60px;
-  height: 60px;
+.skills img{
   margin-top: 40px;
+  width: 150px;
+  height: 150px;
 }
-.htmlCss p{
-  color: #fff;
-  font-size: 1.3em;
-  margin-top: -10px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.javaScript{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-}
-.javaScript img{
-  width: 60px;
-  height: 60px;
-  margin-top: 35px;
-}
-.javaScript p{
-  color: #fff;
-  font-size: 1.3em;
-  margin-top: -30px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.vueJs{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 80px;
-}
-.vueJs img{
-  width: 70px;
-  height: 70px;
-  margin-top: 35px;
-}
-.vueJs p{
-  color: #fff;
-  font-size: 1.3em;
-  margin-top: -70px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.adobeXD{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 60px;
-}
-.adobeXD img{
-  width: 70px;
-  height: 70px;
-  margin-top: 35px;
-}
-.adobeXD p{
-  color: #fff;
-  font-size: 1.3em;
-  margin-top: -55px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.skills p{
+  width: 100%;
 }
 /* Cette partie du css apporte du style à toute mes modales */
 #overlay{
@@ -591,6 +552,14 @@ body{
   box-shadow: 2px 2px 8px 2px black;
   overflow: scroll;
   display: none;
+}
+@media only screen and (max-width: 768px) {
+  #modale__cv, #modale__commentaire, #modale__cahier {
+    width: 90%; 
+    max-width: none;
+    height: 70vh;
+    max-height: none; 
+  }
 }
 #modale__cahier{
   position: fixed;
@@ -740,6 +709,7 @@ body{
 .Portfolio_realisation{
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
   justify-content: space-around;
 }
 .Portfolio_realisation p{
@@ -751,16 +721,16 @@ body{
 }
 .Portfolio_realisation div{
   background-color: #23242a;
-  width: 290px;
-  height: 290px;
+  width: 350px;
+  height: 250px;
   border-radius: 20px;
 }
 .Portfolio_realisation div:hover{
   box-shadow: 12px 12px 22px 0 #000;
 }
 .Portfolio_realisation img{
-  width: 290px;
-  height: 240px;
+  width: 350px;
+  height: 200px;
   border-radius: 20px 20px 0px 0;
 }
 /* Cette section est celle où il y'a les carte montrant les couleurs et polices utiliser dans ce portfolio */
@@ -810,6 +780,50 @@ body{
 .charte__color__5{
   background-color: rgb(179, 66, 66);
   margin-left: -10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .charte__color{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .charte__color div{
+    width: 100%;
+  }
+  .charte__color__1{
+  background-color: #FFBD59;
+  margin-bottom: -150px;
+  margin-left: -10px;
+}
+  .charte__color__2{
+  background-color: #b7935d;
+  margin-bottom: -150px;
+}
+.charte__color__3{
+  background-color: #34353A;
+  margin-bottom: -150px;
+}
+.charte__color__4{
+  background-color: #23242a;
+  margin-bottom: -150px;
+}
+.charte__color__5{
+  background-color: rgb(179, 66, 66);
+  margin-bottom: 30px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .charte__color{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 .police h3{
   width: 100%;
@@ -886,9 +900,8 @@ body{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 form{
-  display: block;
+  width: 100%;
   text-align: center;
-  width: 700px;
   flex-wrap: wrap;
   margin-top: 35px;
 }
@@ -928,4 +941,16 @@ textarea{
   height: 50px;
   font-size: 1.3em;
 }
+@media only screen and (max-width: 600px) {
+  .titreDuFormulaire {
+    font-size: 1.5em; /* Ajuster la taille de police pour les écrans très petits */
+  }
+
+  input,
+  textarea,
+  .formulair_commentaire_button button {
+    width: 85%; /* Réduire la largeur des éléments sur les petits écrans */
+  }
+}
+
 </style>

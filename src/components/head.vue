@@ -86,4 +86,27 @@ nav{
   font-size: 1.8em;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+@media only screen and (max-width: 768px) {
+  nav {
+    height: 110px;
+  }
+
+  .logo img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .nav_link ul {
+    gap: 10px;
+  }
+  
+  .nav_link a {
+    font-size: 1.2em;
+  }
+  
+  .titre_page {
+    font-size: 1.5em;
+  }
+}
 </style>
