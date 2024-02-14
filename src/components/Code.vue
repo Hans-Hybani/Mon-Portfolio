@@ -73,37 +73,37 @@
                             <div class="Portfolio_realisation all card main">
                                   <a href="https://trouve-ton-artisan.vercel.app/" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card espaceCommentaire">
-                                            <img src="../../public/Média/artisan.PNG" alt="Une image qui envoie vers le lien du site trouve un artisan">
+                                            <img src="../../public/Média/artisan.png" alt="Une image qui envoie vers le lien du site trouve un artisan">
                                             <p>trouve ton artisan</p>
                                       </div>
                                   </a>
                                   <a href="https://petit-village.vercel.app/" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card cahierDeCharge">
-                                            <img src="../../public/Média/figurine.PNG" alt="Une image qui envoie vers un fichier pdf du cahier de charge la socketterie">
+                                            <img src="../../public/Média/figurine.png" alt="Une image qui envoie vers un fichier pdf du cahier de charge la socketterie">
                                             <p>Petit village</p>
                                       </div>
                                   </a>
                                   <a href="https://john-doe-cv.vercel.app/" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card">
-                                            <img src="../../public/Média/cvv.PNG" alt="Une image qui envoie vers le site de mon CV">
+                                            <img src="../../public/Média/cvv.png" alt="Une image qui envoie vers le site de mon CV">
                                             <p>CV de John Doe</p>
                                       </div>
                                   </a>
                                   <a href="../../public/dispro.pdf" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card">
-                                            <img src="../../public/Média/dispromalt.PNG" alt="Une image qui envoie vers le pdf gestion">
+                                            <img src="../../public/Média/dispromalt.png" alt="Une image qui envoie vers le pdf gestion">
                                             <p>Projet XD - Gestion</p>
                                       </div>
                                   </a>
                                   <a href="../../public/ProjetProcFin.pdf" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card">
-                                            <img src="../../public/Média/procfin.PNG" alt="Une image qui envoie vers le pdf caisse">
+                                            <img src="../../public/Média/procfin.png" alt="Une image qui envoie vers le pdf caisse">
                                             <p>Porjet XD - Bank</p>
                                       </div>
                                   </a>
                                   <a href="../../public/SpringProject.pdf" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card">
-                                            <img src="../../public/Média/spring.PNG" alt="Une image qui envoie vers le pdf caisse">
+                                            <img src="../../public/Média/spring.png" alt="Une image qui envoie vers le pdf caisse">
                                             <p>Projet XD - Caisse</p>
                                       </div>
                                   </a>
