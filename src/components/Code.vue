@@ -438,6 +438,10 @@ a{
 }
 }
 @media only screen and (max-width: 767px) {
+.Me_text{
+  width: 350px; 
+  margin-top: 50px; 
+}  
 .Me_photoDeProfil img{
   width: 350px;
   height: 450px;
@@ -552,14 +556,6 @@ a{
   box-shadow: 2px 2px 8px 2px black;
   overflow: scroll;
   display: none;
-}
-@media only screen and (max-width: 768px) {
-  #modale__cv, #modale__commentaire, #modale__cahier {
-    width: 90%; 
-    max-width: none;
-    height: 70vh;
-    max-height: none; 
-  }
 }
 #modale__cahier{
   position: fixed;
@@ -697,6 +693,8 @@ a{
   padding-top: 50px;
   background-color: #34353A;
   padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .Portfolio_titre{
   display: flex;
@@ -709,7 +707,7 @@ a{
 .Portfolio_realisation{
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 25px;
   justify-content: space-around;
 }
 .Portfolio_realisation p{
