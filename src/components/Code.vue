@@ -89,10 +89,10 @@
                                             <p>CV de John Doe</p>
                                       </div>
                                   </a>
-                                  <a href="https://github.com/Hans-Hybani/Gestion-imprimirerie/blob/main/dispro.pdf" target="_blank" rel="noopener noreferrer">
+                                  <a href="https://github.com/Hans-Hybani/Gestion-imprimerie/blob/main/Gestion%20Imprimerie.pdf" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card">
                                             <img src="../../public/Média/Dashboard.png" alt="Une image qui envoie vers le pdf gestion">
-                                            <p>Projet XD - Gestion d'une imprimerie</p>
+                                            <p>Projet XD - Gestion imprimerie</p>
                                       </div>
                                   </a>
                                   <a href="https://github.com/Hans-Hybani/bank-mobile/blob/main/ProjetProcFin.pdf" target="_blank" rel="noopener noreferrer">
