@@ -174,6 +174,7 @@
 export default {
 data() {
 return {
+
   // ****** C'est le font tout noir lorsq'une modale s'affiche
   overlay: null, 
   messageMail: null, 
@@ -232,17 +233,11 @@ methods: {
     window.open('../public/My CV/index.html')
   },
   closeModale() {
-    this.modale1.style.display="none"
-    this.modale2.style.display="none"
-    this.modale3.style.display="none"
     this.overlay.style.display="none"
     this.messageMail.style.display="none"
   },
   exitModaleOverlay() {
     this.overlay.style.display="none"
-    this.modale1.style.display="none"
-    this.modale2.style.display="none"
-    this.modale3.style.display="none"
     this.messageMail.style.display="none"
   },
   sendMail() {
@@ -440,7 +435,7 @@ a{
 @media only screen and (max-width: 767px) {
 .Me_text{
   width: 350px; 
-  margin-top: 50px; 
+  margin-top: 20px; 
 }  
 .Me_photoDeProfil img{
   width: 350px;
@@ -500,13 +495,13 @@ a{
   padding-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
-  gap: 30px;
+  gap: 15px;
 }
 .aboutMyskills_outils div{
   background-color: #34353A;
   box-shadow: 2px 2px 2px 2px #000;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 30px;
 }
 .skills{
@@ -517,11 +512,36 @@ a{
 }
 .skills img{
   margin-top: 40px;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
 .skills p{
   width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutMyskills_outils div {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .skills img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Media Query pour les appareils mobiles */
+@media screen and (max-width: 480px) {
+  .aboutMyskills_outils div {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .skills img {
+    width: 30px;
+    height: 30px;
+  }
 }
 /* Cette partie du css apporte du style à toute mes modales */
 #overlay{
@@ -731,6 +751,34 @@ a{
   height: 250px;
   border-radius: 20px 20px 0px 0;
 }
+@media screen and (max-width: 768px) {
+  .Portfolio_realisation div{
+    background-color: #23242a;
+    width: 215px;
+    height: 190px;
+    border-radius: 20px;
+}
+  .Portfolio_realisation img {
+    width: 215px;
+    height: 130px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .Portfolio_realisation div {
+    background-color: #23242a;
+    width: 300px; /* Largeur ajustée pour les écrans plus larges */
+    height: 250px; /* Hauteur ajustée pour les écrans plus larges */
+    border-radius: 25px; /* Rayon de bord ajusté pour les écrans plus larges */
+  }
+  
+  .Portfolio_realisation img {
+    width: 300px; /* Largeur ajustée pour les écrans plus larges */
+    height: 200px; /* Hauteur ajustée pour les écrans plus larges */
+  }
+}
+
+/* Media Query pour les appareils mobiles */
+
 /* Cette section est celle où il y'a les carte montrant les couleurs et polices utiliser dans ce portfolio */
 .charte{
   display: flex;
