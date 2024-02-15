@@ -6,7 +6,7 @@
                     <div class="Me_monProfil">
                           <p class="Me_monProfil__titre">Développeur Web et Mobile<br>
                           & <span> & Web Designer Junior</span></p>
-                          <p class="Me_monProfil__presentation">Jeune développeur web et mobile je suis particulièrement passionné par le web design. J'exprime ma créativité avec Adobe XD. En dehors du code, j'explore l'astronomie ainsi que divers thème culturelle. Mon scientifique préféré est Stephen Hawking, il m'inspire à surmonter les obstacles. Je crois que, malgré les handicaps, on peut accomplir de grandes choses. Mon parcours est une aventure continue d'apprentissage et de croissance dans le monde du développement. Ce portfolio en est une prémisse</p>
+                          <p class="Me_monProfil__presentation">Jeune développeur web et mobile, je suis particulièrement passionné par le web design. J'exprime ma créativité avec Adobe XD. En dehors du code, j'explore l'astronomie ainsi que divers thèmes culturels. Mon scientifique préféré est Stephen Hawking, il m'inspire à surmonter les obstacles. Je crois que, malgré les handicaps, on peut accomplir de grandes choses. Mon parcours est une aventure continue d'apprentissage et de croissance dans le monde du développement. Ce portfolio en est une prémisse.</p>
                     </div>
                 </div>
                 <div class="Me_photoDeProfil">
@@ -17,7 +17,8 @@
           <section id="aboutMyskills">
                 <h2 class="aboutMyskills_titre">A propos</h2>
                 <div class="aboutMyskills_description">
-                      <p>Mes premiers pas dans le développement ont débuté avec du HTML et du CSS, que j'ai rapidement maîtrisés. En quête d'interactivité, j'ai plongé dans du JavaScript, marquant mon entrée dans le monde complexe du développement. Vue.js a ensuite été un défi, devenant ainsi mon premier framwork. En parallèle, je me suis initié au design web avec Adobe XD, fusionnant ainsi le code et le design.Ma liste de compétences ne cesse de s'élargir. Actuellement à l'aise avec HTML, CSS, JavaScript, je suis sur le point d'intégrer Python et Figma à mes compétences. De plus, l'apprentissage du framework React est également prévu dans mon parcours.</p>
+                      <p>
+Mes premiers pas dans le développement ont débuté avec du HTML et du CSS, que j'ai rapidement maîtrisés. En quête d'interactivité, j'ai plongé dans le JavaScript, marquant ainsi mon entrée dans le monde complexe du développement. Vue.js a ensuite été un défi, devenant ainsi mon premier framework. En parallèle, je me suis initié au design web avec Adobe XD, fusionnant ainsi le code et le design. Ma liste de compétences ne cesse de s'élargir. Actuellement à l'aise avec HTML, CSS, JavaScript, je suis sur le point d'intégrer Python et Figma à mes compétences. De plus, l'apprentissage du framework React est également prévu dans mon parcours.</p>
                 </div>
                 <section class="aboutMyskills_skills">
                       <h3>Hard & Soft skills</h3>
