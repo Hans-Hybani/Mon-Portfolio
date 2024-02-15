@@ -89,22 +89,22 @@
                                             <p>CV de John Doe</p>
                                       </div>
                                   </a>
-                                  <a href="../../public/dispro.pdf" target="_blank" rel="noopener noreferrer">
+                                  <a href="https://github.com/Hans-Hybani/Gestion-imprimirerie/blob/main/dispro.pdf" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card">
                                             <img src="../../public/Média/Dashboard.png" alt="Une image qui envoie vers le pdf gestion">
-                                            <p>Projet XD - Gestion</p>
+                                            <p>Projet XD - Gestion d'une imprimerie</p>
                                       </div>
                                   </a>
-                                  <a href="../../public/ProjetProcFin.pdf" target="_blank" rel="noopener noreferrer">
+                                  <a href="https://github.com/Hans-Hybani/bank-mobile/blob/main/ProjetProcFin.pdf" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card">
                                             <img src="../../public/Média/Carte.jpg" alt="Une image qui envoie vers le pdf caisse">
-                                            <p>Porjet XD - Bank</p>
+                                            <p>Porjet XD - Bank Mobile</p>
                                       </div>
                                   </a>
-                                  <a href="../../public/SpringProject.pdf" target="_blank" rel="noopener noreferrer">
+                                  <a href="https://github.com/Hans-Hybani/Gestion_Caisse/blob/main/SpringProject.pdf" target="_blank" rel="noopener noreferrer">
                                       <div class="Portfolio_realisation all card">
                                             <img src="../../public/Média/Caisse.jpg" alt="Une image qui envoie vers le pdf caisse">
-                                            <p>Projet XD - Caisse</p>
+                                            <p>Projet XD - Gestion de Caisse</p>
                                       </div>
                                   </a>
                             </div>
