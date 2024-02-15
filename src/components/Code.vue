@@ -524,8 +524,13 @@ a{
     width: 150px;
     height: 150px;
   }
+.skills p{
+  font-size: 1em;
+  width: 100%;
+}
   
   .skills img {
+    margin-top: 25px;
     width: 40px;
     height: 40px;
   }
@@ -537,7 +542,10 @@ a{
     width: 100px;
     height: 100px;
   }
-  
+  .skills p{
+    font-size: 0.8em;
+    width: 100%;
+  }
   .skills img {
     width: 30px;
     height: 30px;
@@ -758,13 +766,6 @@ a{
     height: 190px;
     border-radius: 20px;
 }
-.Portfolio_realisation p{
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: #FFF;
-  font-weight: bolder;
-  text-align: center;
-  font-size: 0.4em;
-}
   .Portfolio_realisation img {
     width: 215px;
     height: 130px;
@@ -777,13 +778,7 @@ a{
     height: 250px; /* Hauteur ajustée pour les écrans plus larges */
     border-radius: 25px; /* Rayon de bord ajusté pour les écrans plus larges */
   }
-.Portfolio_realisation p{
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: #FFF;
-  font-weight: bolder;
-  text-align: center;
-  font-size: 0.4em;
-}
+  
   .Portfolio_realisation img {
     width: 300px; /* Largeur ajustée pour les écrans plus larges */
     height: 200px; /* Hauteur ajustée pour les écrans plus larges */
